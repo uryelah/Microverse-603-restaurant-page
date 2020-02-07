@@ -15,20 +15,20 @@ const pagesModule = (() => ({
 }))();
 
 window.onload = () => {
-  const tabs = document.querySelectorAll('.tab');
+  const tabs = document.getElementsByClassName('tab');
   const appContent = document.querySelector('#content');
   appContent.innerHTML = `${animation} ${nav}
   <header class="app-header">
   </header>
-
   ${footer}`;
   pagesModule.home.addToPage(appContent.querySelector('.app-header'));
-  document.querySelector('#home').classList.add('selected');
-  //listenForToggle();
+  document.getElementById('home').classList.add('selected');
+
+  listenForToggle();
 
   [...tabs].forEach(tab => {
     tab.addEventListener('click', () => {
-      [...tabs].forEach(t => {
+      Array.from(tabs).forEach(t => {
         if (t !== tab) {
           t.classList.remove('selected');
         } else {
