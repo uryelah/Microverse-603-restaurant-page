@@ -22,11 +22,16 @@ window.onload = () => {
 
   ${footer}`;
   pagesModule.home.addToPage(appContent.querySelector('.app-header'));
+  document.getElementById('home').classList.add('selected');
 
   [...tabs].forEach(tab => {
     tab.addEventListener('click', () => {
       Array.from(tabs).forEach(t => {
-        t.classList.remove('selected');
+        if (t !== tab) {
+          t.classList.remove('selected');
+        } else {
+          t.classList.add('selected');
+        }
       });
       pagesModule[document.querySelector('.app-header').getAttribute('name')].leavePage(document.querySelector('.app-header'));
       setTimeout(() => {
