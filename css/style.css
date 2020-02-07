@@ -27,7 +27,8 @@ body, #content {
   overflow: hidden;
 }
 .dark-body {
-  background-color: #292929;
+  filter: invert(90%);
+  zbackground-color: #292929;
 }
 
 #content {
@@ -51,7 +52,7 @@ body, #content {
   width: 100%;
   z-index: 100;
 }
-.dark-body .app-nav {
+.dark-bodyy .app-nav {
   background-color: #292929;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -94,7 +95,7 @@ body, #content {
   height: 35px;
   min-width: 25%;
 }
-.dark-body .app-nav li {
+.dark-bodyy .app-nav li {
   -webkit-box-shadow: -5px -5px 5px 0 #323232, 5px 5px 5px 0 #261703, inset 0 0 0 0 #262713, inset 5px 5px 4px 20px #292929;
   box-shadow: -5px -5px 5px 0 #323232, 5px 5px 5px 0 #261703, inset 0 0 0 0 #262713, inset 5px 5px 4px 20px #292929;
   text-shadow: 1px 1px 1px #000;
@@ -107,7 +108,7 @@ body, #content {
   font-size: 1.6rem;
   padding-top: 2px;
 }
-.dark-body .app-nav li:hover {
+.dark-bodyy .app-nav li:hover {
   -webkit-box-shadow: 5px 5px 5px 0 #323232, -5px -5px 5px 0 #261703, inset 0 0 0 0 #262713, inset -5px -5px 4px 20px #292929;
   box-shadow: 5px 5px 5px 0 #323232, -5px -5px 5px 0 #261703, inset 0 0 0 0 #262713, inset -5px -5px 4px 20px #292929;
 }
@@ -146,7 +147,7 @@ body, #content {
   -webkit-box-shadow: 0 10px 20px 0 #d5d5d3;
           box-shadow: 0 10px 20px 0 #d5d5d3;
 }
-.dark-body .header-img {
+.dark-bodyy .header-img {
   -webkit-box-shadow: 0 10px 20px 0 #1b1b19;
   box-shadow: 0 10px 20px 0 #1b1b19;
   filter: invert(90%);
@@ -193,7 +194,7 @@ body, #content {
   width: max-content;
   white-space: nowrap;
 }
-.dark-body .title {
+.dark-bodyy .title {
   text-shadow: 6px 6px 6px #181717dd, -5px -5px 5px #4d4d4ddd;
 }
 
@@ -220,7 +221,7 @@ body, #content {
   top: 0;
   white-space: nowrap;
 }
-.dark-body .title:after {
+.dark-bodyy .title:after {
   color: #272727;
 }
 
@@ -266,7 +267,7 @@ body, #content {
   transition: 1s ease-out;
   white-space: nowrap;
 }
-.dark-body .subtitle {
+.dark-bodyy .subtitle {
   text-shadow: 0 -1px 1px #ffe7e5d7, 0 0 2px #ff4a3ddd, 2px 4px 4px #13111160;
 }
 
@@ -277,7 +278,7 @@ body, #content {
   -o-transition: 0.2s ease-out;
   transition: 0.2s ease-out;
 }
-.dark-body .subtitle:hover {
+.dark-bodyy .subtitle:hover {
   text-shadow: 0 -1px 1px #ffe7e5d7, 0 0 4px #ff493c, 2px 4px 4px #13111160;
 }
 
@@ -292,7 +293,7 @@ body, #content {
   width: 100%;
   z-index: 190;
 }
-.dark-body .cover {
+.dark-bodyy .cover {
   background-color: #292929;
 }
 
@@ -633,7 +634,7 @@ body, #content {
   -webkit-box-shadow: inset -5px -5px 10px #d3cbbf77, inset 6px 6px 12px #fbfbfbdd;
           box-shadow: inset -5px -5px 10px #d3cbbf77, inset 6px 6px 12px #fbfbfbdd;
 }
-.dark-body .app-footer {
+.dark-bodyy .app-footer {
   background-color: #28282971;
   -webkit-box-shadow: inset -5px -5px 10px #d3cbbf77, inset 6px 6px 12px #fbfbfbdd;
   box-shadow: inset -5px -5px 10px #1d1c1c, inset 6px 6px 12px #363635;
@@ -729,7 +730,7 @@ body, #content {
   -webkit-box-shadow: 4px 4px 6px 0 #fbfbfb, -4px -4px 6px 0 #e0e1dc, inset 5px 5px 4px 20px #f3f3f3 !important;
           box-shadow: 4px 4px 6px 0 #fbfbfb, -4px -4px 6px 0 #e0e1dc, inset 5px 5px 4px 20px #f3f3f3 !important;
 }
-.dark-body .selected {
+.dark-bodyy .selected {
   -webkit-box-shadow: 4px 4px 6px 0 #323232, -4px -4px 6px 0 #261703, inset 5px 5px 4px 20px #292929 !important;
           box-shadow: 4px 4px 6px 0 #323232, -4px -4px 6px 0 #261703, inset 5px 5px 4px 20px #292929 !important;
 }
