@@ -149,7 +149,7 @@ body, #content {
 .dark-body .header-img {
   -webkit-box-shadow: 0 10px 20px 0 #1b1b19;
   box-shadow: 0 10px 20px 0 #1b1b19;
-  filter: invert(75%);
+  filter: invert(90%);
 }
 
 .header-newsline {
@@ -194,7 +194,7 @@ body, #content {
   white-space: nowrap;
 }
 .dark-body .title {
-  text-shadow: 5px 5px 4px #292929dd, -6px -6px 6px #575757dd;
+  text-shadow: 6px 6px 6px #181717dd, -5px -5px 5px #4d4d4ddd;
 }
 
 .title:hover {
@@ -221,8 +221,7 @@ body, #content {
   white-space: nowrap;
 }
 .dark-body .title:after {
-  color: #303030;
-  color: #393a39;
+  color: #272727;
 }
 
 .title-menu:after {
@@ -633,6 +632,11 @@ body, #content {
   top: calc(100vh - 50px);
   -webkit-box-shadow: inset -5px -5px 10px #d3cbbf77, inset 6px 6px 12px #fbfbfbdd;
           box-shadow: inset -5px -5px 10px #d3cbbf77, inset 6px 6px 12px #fbfbfbdd;
+}
+.dark-body .app-footer {
+  background-color: #28282971;
+  -webkit-box-shadow: inset -5px -5px 10px #d3cbbf77, inset 6px 6px 12px #fbfbfbdd;
+  box-shadow: inset -5px -5px 10px #1d1c1c, inset 6px 6px 12px #363635;
 }
 
 .app-footer ul {
