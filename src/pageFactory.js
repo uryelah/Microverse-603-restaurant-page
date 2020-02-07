@@ -17,4 +17,4 @@ const pageFactory = (title, content, transition) => {
   return { getTitle, getContent, addToPage, leavePage };
 };
 
-export default pageFactory
+export default pageFactory;

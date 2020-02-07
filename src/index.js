@@ -24,7 +24,7 @@ window.onload = () => {
   </header>
 
   ` + footer
-  pagesModule['home'].addToPage(document.body.children[4]);
+  pagesModule['menu'].addToPage(document.body.children[4]);
 
   [...tabs].forEach(tab => {
     tab.addEventListener('click', () => {

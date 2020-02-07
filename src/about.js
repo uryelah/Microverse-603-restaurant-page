@@ -2,9 +2,19 @@ import pageFactory from './pageFactory';
 
 const pageContent = `
 <header name='about' class="app-header">
-<div class='header-newsline'>
-  <h1 class='title'>Lo·Eggo</h1>
-  <h2 class="subtitle">breakfast food</h2>
+<div class='header-newsline newsline-pages'>
+  <h1 class='title title-about'>The · way</h1>
+  <h2 class="subtitle-pages">#goals #bestdinneraround</h2>
+  <div class='message message-pages'>
+    <p>
+    Our founder once said:
+    <quote>I wish I could eat sugary corn flakes at like 4pm...</quote>
+    Then her roomate answered <q>Like the ones in the cabinet just behind you (lol)?</q>
+    And she said
+    <quote>Yeah, sure, but like... in a restaurant you know?</quote>
+    The rest is history.
+    </p>
+  </div>
 </div>
 <div class='toaster-area'>
   <img class="toaster" src="./toaster.png" alt="">
@@ -12,11 +22,11 @@ const pageContent = `
   <img class='toast' src="./toast.png" alt="">
   <img class='toast toast2' src="./toast.png" alt="">
   <div class="message">
-    <p><strong>Lo·Eggo</strong>, the 'gs' are silent, prides itself of serving fresh out of the box breakfast food 24/7.</p>
-    <p>Come the comfy life :-)</p>      
+    <p><strong>Tip:</strong> If you amile at our stores mirrors</p>
+    <p>you'll the to see a real great person smiling back ;-)</p>      
   </div>
 </div>
-<img class='header-img' src="./cereal.jpg" alt="">
+<img class='header-img img-about' id='header-img-pages' src="./cereal.jpg" alt="">
 </header>
 `
 
