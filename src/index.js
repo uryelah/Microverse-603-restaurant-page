@@ -5,6 +5,7 @@ import contact from './contact';
 import nav from './nav';
 import footer from './footer';
 import animation from './startAnimation';
+import listenForToggle from './toggle';
 
 const pagesModule = (() => ({
   home,
@@ -23,6 +24,7 @@ window.onload = () => {
   ${footer}`;
   pagesModule.home.addToPage(appContent.querySelector('.app-header'));
   document.querySelector('#home').classList.add('selected');
+  //listenForToggle();
 
   [...tabs].forEach(tab => {
     tab.addEventListener('click', () => {
