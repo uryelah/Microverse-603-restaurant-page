@@ -8,21 +8,27 @@ const pageContent = `
 </div>
 <div class='globes'>
     <div class='globe'>
+      <div class='globe-cover'></div>    
       <img src='./img/01.jpg' alt=''>
     </div>
     <div class='globe'>
+      <div class='globe-cover'></div>
       <img src='./img/02.jpg' alt=''>
     </div>
     <div class='globe'>
+      <div class='globe-cover'></div>
       <img src='./img/03.jpeg' alt=''>
     </div>
     <div class='globe'>
+      <div class='globe-cover'></div>
       <img src='./img/04.jpeg' alt=''>
     </div>
     <div class='globe'>
+      <div class='globe-cover'></div>
       <img src='./img/05.jpeg' alt=''>
     </div>
     <div class='globe'>
+      <div class='globe-cover'></div>
       <img src='./img/06.jpg' alt=''>
     </div>
   </div>
