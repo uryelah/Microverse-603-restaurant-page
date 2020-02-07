@@ -14,7 +14,7 @@ const pagesModule = (() => ({
 }))();
 
 window.onload = () => {
-  const tabs = document.getElementsByClassName('tab');
+  const tabs = document.querySelectorAll('.tab');
   const appContent = document.querySelector('#content');
   appContent.innerHTML = `${animation + nav}
   <header class="app-header">
@@ -22,11 +22,11 @@ window.onload = () => {
 
   ${footer}`;
   pagesModule.home.addToPage(appContent.querySelector('.app-header'));
-  document.getElementById('home').classList.add('selected');
+  document.querySelector('#home').classList.add('selected');
 
   [...tabs].forEach(tab => {
     tab.addEventListener('click', () => {
-      Array.from(tabs).forEach(t => {
+      [...tabs].forEach(t => {
         if (t !== tab) {
           t.classList.remove('selected');
         } else {
