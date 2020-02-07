@@ -21,7 +21,7 @@ window.onload = () => {
   </header>
 
   ${footer}`;
-  pagesModule.menu.addToPage(appContent.querySelector('.app-header'));
+  pagesModule.home.addToPage(appContent.querySelector('.app-header'));
 
   [...tabs].forEach(tab => {
     tab.addEventListener('click', () => {
