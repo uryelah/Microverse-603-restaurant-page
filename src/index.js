@@ -16,7 +16,7 @@ const pagesModule = (() => ({
 window.onload = () => {
   const tabs = document.querySelectorAll('.tab');
   const appContent = document.querySelector('#content');
-  appContent.innerHTML = `${animation + nav}
+  appContent.innerHTML = `${animation} ${nav}
   <header class="app-header">
   </header>
 
