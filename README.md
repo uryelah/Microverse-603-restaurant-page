@@ -38,7 +38,6 @@ This project is a dynamically rendered restaurant page.
 Each tab('home', 'contact', 'about', 'menu') is in its own javascript file at /src and imported to index.js to be rendered when a nav link is clicked. The adding and removing html from the page, as well as the entering and leaving css animation, are handled by the pageFactory methods from where each page is made.
 
 <div align="center">
-  <img src="public/img/screenshot.jpg" width="900">
 </div>
 
 <!-- ABOUT THE PROJECT -->
