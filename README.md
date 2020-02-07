@@ -6,7 +6,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/thsvr/Microverse-602-TicTacToe">
+  <a href="https://github.com/uryelah/Microverse-603-restaurant-page">
     <img src="public/img/mLogo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -16,9 +16,9 @@
   <p align="center">
     This project is part of the Microverse Javacript Section!
     <br />
-    <a href="https://github.com/thsvr/Microverse-602-TicTacToe/issues">Report Bug</a>
+    <a href="https://github.com/uryelah/Microverse-603-restaurant-page">Report Bug</a>
     ·
-    <a href="https://github.com/thsvr/Microverse-602-TicTacToe/issues">Request Feature</a>
+    <a href="https://github.com/uryelah/Microverse-603-restaurant-page">Request Feature</a>
   </p>
 </p>
 
@@ -75,13 +75,13 @@ This project was built using these technologies.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/thsvr/Microverse-602-TicTacToe.svg?style=flat-square
-[contributors-url]: https://github.com/thsvr/Microverse-602-TicTacToe/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/thsvr/Microverse-602-TicTacToe.svg?style=flat-square
-[forks-url]: https://github.com/thsvr/Microverse-602-TicTacToe/network/members
-[stars-shield]: https://img.shields.io/github/stars/thsvr/Microverse-602-TicTacToe.svg?style=flat-square
-[stars-url]: https://github.com/thsvr/Microverse-602-TicTacToe/stargazers
-[issues-shield]: https://img.shields.io/github/issues/thsvr/Microverse-602-TicTacToe.svg?style=flat-square
-[issues-url]: https://github.com/thsvr/Microverse-602-TicTacToe
+[contributors-shield]: https://img.shields.io/github/contributors/uryelah/Microverse-603-restaurant-page.svg?style=flat-square
+[contributors-url]: https://github.com/uryelah/Microverse-603-restaurant-page/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/uryelah/Microverse-603-restaurant-page.svg?style=flat-square
+[forks-url]: https://github.com/uryelah/Microverse-603-restaurant-page/network/members
+[stars-shield]: https://img.shields.io/github/stars/uryelah/Microverse-603-restaurant-page.svg?style=flat-square
+[stars-url]: https://github.com/uryelah/Microverse-603-restaurant-page/stargazers
+[issues-shield]: https://img.shields.io/github/issues/uryelah/Microverse-603-restaurant-page.svg?style=flat-square
+[issues-url]: https://github.com/uryelah/Microverse-603-restaurant-page
 [product-screenshot]: img/screenshot.PNG
 
