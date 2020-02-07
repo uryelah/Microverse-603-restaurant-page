@@ -7,5 +7,5 @@ const nav = (() => `
           <li id='contact' class='tab'><a href='#'>contact</a></li id='contact' class='tab'>
         </ul>
       </nav>
-`)()
+`)();
 export default nav;

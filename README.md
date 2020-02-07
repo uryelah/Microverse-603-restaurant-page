@@ -10,8 +10,8 @@
     <img src="public/img/mLogo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Tic Tac Toe -
-  <a href='https://raw.githack.com/thsvr/Microverse-602-TicTacToe/tictactoe/index.html'> Live version</a></h3>
+  <h3 align="center">Restaurant page -
+  <a href=''> Live version</a></h3>
 
   <p align="center">
     This project is part of the Microverse Javacript Section!
@@ -34,38 +34,31 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-A Tic Tac Toe game you can play in your browser made with vanila Javascript, HTML, and CSS3. 
-
-Tic-tac-toe is game for two players, X and O, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner. [Wikipedia reference](https://en.wikipedia.org/wiki/Tic-tac-toe)
+This project is a dynamically rendered restaurant page.
+Each tab('home', 'contact', 'about', 'menu') is in its own javascript file at /src and imported to index.js to be rendered when a nav link is clicked. The adding and removing html from the page, as well as the entering and leaving css animation, are handled by the pageFactory methods from where each page is made.
 
 <div align="center">
-  <img src="public/img/screenshot.png" width="800">
+  <img src="public/img/screenshot.jpg" width="900">
 </div>
 
 <!-- ABOUT THE PROJECT -->
 ## Installation
 
-Download or clone the [repo here](https://github.com/thsvr/Microverse-602-TicTacToe) and open the html file in the browser of your choice.
+Download or clone the [repo here](https://github.com/uryelah/Microverse-603-restaurant-page.git), enter the directory in the terminal and run the commands:
+* `npm i`
+* `npm run start`
+Your default browser should open the app at the localhost:8080
 
 ### Built With
 This project was built using these technologies.
 * HTML
 * CSS3
 * Vanila Javascript
+* Webpack
 
 <!-- CONTACT -->
 ## Contact
 
-👤 **Thaís Vieira Azevedo**
-
-- Github: [@thsvr](https://github.com/thsvr)
-- Twitter: [@vr_ths](https://twitter.com/vr_ths)
-- Linkedin: [Thaís V.](https://www.linkedin.com/in/vr-ths-zd/)
-- Email: [vr.ths.zd@gmail.com](vr.ths.zd@gmail.com)
-
-
-<br />
-<br />
 👤 **Sarah Uryelah Silva Chamorro**
 
 - Github: [@uryelah](https://github.com/uryelah)

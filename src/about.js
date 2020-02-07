@@ -17,19 +17,19 @@ const pageContent = `
   </div>
 </div>
 <div class='toaster-area'>
-  <img class="toaster" src="./toaster.png" alt="">
-  <img class='shine' src="./shine.png" alt="">
-  <img class='toast' src="./toast.png" alt="">
-  <img class='toast toast2' src="./toast.png" alt="">
+  <img class="toaster" src="./img/toaster.png" alt="">
+  <img class='shine' src="./img/shine.png" alt="">
+  <img class='toast' src="./img/toast.png" alt="">
+  <img class='toast toast2' src="./img/toast.png" alt="">
   <div class="message">
     <p><strong>Tip:</strong> If you amile at our stores mirrors</p>
     <p>you'll the to see a real great person smiling back ;-)</p>      
   </div>
 </div>
-<img class='header-img img-about' id='header-img-pages' src="./cereal.jpg" alt="">
+<img class='header-img img-about' src="./img/cereal.jpg" alt="">
 </header>
-`
+`;
 
 const about = pageFactory('about', pageContent, 'from-top');
 
-export default about
+export default about;

@@ -7,16 +7,16 @@ const pageContent = `
   <h2 class="subtitle">breakfast food</h2>
 </div>
 <div class='toaster-area'>
-  <img class="toaster" src="./toaster.png" alt="">
-  <img class='shine' src="./shine.png" alt="">
-  <img class='toast' src="./toast.png" alt="">
-  <img class='toast toast2' src="./toast.png" alt="">
+  <img class="toaster" src="./img/toaster.png" alt="">
+  <img class='shine' src="./img/shine.png" alt="">
+  <img class='toast' src="./img/toast.png" alt="">
+  <img class='toast toast2' src="./img/toast.png" alt="">
   <div class="message">
     <p><strong>Lo·Eggo</strong>, the 'gs' are silent, prides itself of serving fresh out of the box breakfast food 24/7.</p>
     <p>Come the comfy life :-)</p>      
   </div>
 </div>
-<img class='header-img' src="./cereal.jpg" alt="">
+<img class='header-img' src="./img/cereal.jpg" alt="">
 </header>
 `;
 

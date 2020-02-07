@@ -8,37 +8,37 @@ const pageContent = `
 </div>
 <div class='globes'>
     <div class='globe'>
-      <img src='./01.jpg' alt=''>
+      <img src='./img/01.jpg' alt=''>
     </div>
     <div class='globe'>
-      <img src='./02.jpg' alt=''>
+      <img src='./img/02.jpg' alt=''>
     </div>
     <div class='globe'>
-      <img src='./03.jpeg' alt=''>
+      <img src='./img/03.jpeg' alt=''>
     </div>
     <div class='globe'>
-      <img src='./04.jpeg' alt=''>
+      <img src='./img/04.jpeg' alt=''>
     </div>
     <div class='globe'>
-      <img src='./05.jpeg' alt=''>
+      <img src='./img/05.jpeg' alt=''>
     </div>
     <div class='globe'>
-      <img src='./06.jpg' alt=''>
+      <img src='./img/06.jpg' alt=''>
     </div>
   </div>
 <div class='toaster-area toaster-menu'>
-  <img class="toaster" src="./toaster.png" alt="">
-  <img class='shine' src="./shine.png" alt="">
-  <img class='toast' src="./toast.png" alt="">
-  <img class='toast toast2' src="./toast.png" alt="">
+  <img class="toaster" src="./img/toaster.png" alt="">
+  <img class='shine' src="./img/shine.png" alt="">
+  <img class='toast' src="./img/toast.png" alt="">
+  <img class='toast toast2' src="./img/toast.png" alt="">
   <div class="message">
     <p>Hell is a <strong>nursery rimme</strong></p>
   </div>
 </div>
-<img class='header-img' id='header-img-pages' src="./cereal.jpg" alt="">
+<img class='header-img' id='header-img-pages' src="./img/cereal.jpg" alt="">
 </header>
-`
+`;
 
 const menu = pageFactory('menu', pageContent, 'from-top');
 
-export default menu
+export default menu;

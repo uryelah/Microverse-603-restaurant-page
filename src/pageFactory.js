@@ -5,16 +5,18 @@ const pageFactory = (title, content, transition) => {
     if (withTransition) {
       putAt.outerHTML = content;
     } else {
-      putAt.outerHTML = content; 
+      putAt.outerHTML = content;
     }
-    
-    document.querySelector(`[name="${title}"]`).classList.add(transition)
+
+    document.querySelector(`[name="${title}"]`).classList.add(transition);
   }
   function leavePage(removeMe) {
-    removeMe.classList.remove(transition)
-    removeMe.classList.add(transition + '-out')
+    removeMe.classList.remove(transition);
+    removeMe.classList.add(`${transition}-out`);
   }
-  return { getTitle, getContent, addToPage, leavePage };
+  return {
+    getTitle, getContent, addToPage, leavePage,
+  };
 };
 
 export default pageFactory;
