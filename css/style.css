@@ -873,10 +873,12 @@ figure {
 }
 
 .globe {
+  position: relative;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  overflow: hidden;
+  zoverflow: hidden;
   border-radius: 50%;
+  box-sizing: border-box;
   height: 30vh;
   width: 30vh;
   -webkit-box-shadow: inset 0px 1px 10px 0px #eeeeeec2, inset 0px -1px 3px 1px #f3f3f3, inset 9px 12px 15px 1px #fafafa, inset -12px -12px 15px 1px #4e4e4e1a, inset 0 0 50px 20px #f3f3f3, -15px -15px 15px 0 #fbfbfbce, 10px 10px 15px 0 #e0e1dc;
@@ -888,12 +890,25 @@ figure {
   transition: 0.3s ease-in-out;
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  margin: 0 15px;
+  margin: 0 18px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-line-pack: center;
       align-content: center;
+}
+
+.globe-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: visible !important;
+  width: calc(100% + 28px);
+  height: calc(100% + 28px);
+  background-color: red;
+  border-radius: 50%;
+  opacity: 0;
+  pointer-events: all;
 }
 
 .globe:nth-of-type(1) {
@@ -925,11 +940,8 @@ figure {
   -webkit-transform: scale(1.1);
       -ms-transform: scale(1.1);
           transform: scale(1.1);
-}
-
-.globe:hover img {
-  opacity: 1;
-  width: 35vh;
+  background-size: cover;
+  background-position: center;
 }
 
 @media only screen and (min-width: 1240px) {
